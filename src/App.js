@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+// import Greeting from './Greeting';
+// import UserGreeting from './UserGreeting';
+// import MultiStateComponent from './MultiStateComponent';
+// import './App.css';
+import Board from './components/Board';
+import './styles.css';
+
 
 function App() {
   return (
+    // <div className="App">
+    //   {
+    //   /* <h1>Hello World!</h1>
+    //   <Greeting />
+    //  <UserGreeting name="John Doe" age={30} location="New York" />
+    //   <UserGreeting name="Jane Smith" age={25} location="London" />
+    //   <UserGreeting name="Alice Johnson" age={35} location="Los Angeles" />
+    //   <MultiStateComponent />  */}
+    // </div>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <h1>Trello-like Board</h1>
+    <Board />
+  </div>
   );
 }
 
